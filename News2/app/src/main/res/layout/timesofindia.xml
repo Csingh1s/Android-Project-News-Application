@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Welcome To India"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Titlebar5"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="TextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Descriptionlabel5"
+        android:textColor="?android:attr/panelColorBackground"
+        android:layout_below="@+id/imageViewnews5"
+        android:layout_alignLeft="@+id/imageViewnews5"
+        android:layout_alignStart="@+id/imageViewnews5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageViewnews5"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/Titlebar5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/Titlebar5"
+        android:layout_alignStart="@+id/Titlebar5" />
+
+    <TextView
+        android:text="TextView"
+
+        android:layout_width="match_parent"
+         android:layout_marginRight="5dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/Descriptionlabel5"
+        android:layout_alignLeft="@+id/imageViewnews5"
+        android:layout_alignStart="@+id/imageViewnews5" />
+
+
+</RelativeLayout>
